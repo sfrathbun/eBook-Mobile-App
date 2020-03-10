@@ -1,0 +1,47 @@
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Table of Contents</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <!-- <ion-list *ngFor="let chapter of chapters">
+    <ion-item  (click)="selectedIndex = i" routerDirection="root" [routerLink]="['/chapter1']">
+      {{chapter.title}}
+    </ion-item>
+  </ion-list> -->
+
+  <ion-list>
+    <h1>1 John</h1>
+    <ion-item  (click)="selectedIndex = i" routerDirection="root" [routerLink]="['/chapter1']">
+      Chapter 1 | The Living Expression
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item  (click)="selectedIndex = i" routerDirection="root" [routerLink]="['/chapter2']">
+      Chapter 2 | Christ, Our Answer for Sin
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item  (click)="selectedIndex = i" routerDirection="root" [routerLink]="['/chapter3']">
+      Chapter 3 | Divine Sonship
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item  (click)="selectedIndex = i" routerDirection="root" [routerLink]="['/chapter4']">
+      Chapter 4 | God is Love
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item  (click)="selectedIndex = i" routerDirection="root" [routerLink]="['/chapter5']">
+      Chapter 5 | The Proof of Love
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" size="small" href="/chapter1">Start Reading</ion-button>
+  <ion-button expand="block" size="small" href="/home">Back to home</ion-button>
+</ion-content>
