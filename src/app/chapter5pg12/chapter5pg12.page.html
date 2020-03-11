@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title><a href="/tableofcontents">1 John 5:13-21</a></ion-title>
+    <ion-title><a routerLink="/tableofcontents">1 John 5:13-21</a></ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -31,9 +31,9 @@
     true God and eternal life! 21 So, little children, guard yourselves from
     worshiping anything but him.
   </p>
+  <ion-icon class="back" size="large" name="arrow-back-circle-outline" routerLink="/chapter5"></ion-icon>
+  <ion-icon class="forward" size="large" name="repeat-outline" routerLink="/chapter1"></ion-icon>
   <div class="pageNumber">
-    <p>pg 12</p>
+    <p>12</p>
   </div>
-  <ion-button expand="block" size="small" href="/chapter1">Read it again</ion-button>
-  <ion-button expand="block" size="small" href="/chapter5">Previous page</ion-button>
 </ion-content>

@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title><a href="/tableofcontents">1 John 2:12-17</a></ion-title>
+    <ion-title><a routerLink="/tableofcontents">1 John 2:12-17</a></ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -31,10 +31,9 @@
     world. 17 This world and its desires are in the process of passing away, but
     those who love to[u] do the will of God live forever.
   </p>
+  <ion-icon class="back" size="large" name="arrow-back-circle-outline" routerLink="/chapter2"></ion-icon>
+  <ion-icon class="forward" size="large" name="arrow-forward-circle-outline" routerLink="/chapter2pg6"></ion-icon>
   <div class="pageNumber">
-    <p>pg 5</p>
+    <p>5</p>
   </div>
-  <ion-button expand="block" size="small" href="/chapter2pg6" >Next page</ion-button>
-  <ion-button expand="block" size="small" href="/chapter2" >Previous page</ion-button>
-
 </ion-content>

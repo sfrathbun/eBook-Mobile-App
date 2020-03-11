@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title><a href="/tableofcontents">1 John 2:1-11</a></ion-title>
+    <ion-title><a routerLink="/tableofcontents">1 John 2:1-11</a></ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -39,10 +39,9 @@
     around in the dark with no clue where he is going, for he is blinded by the
     darkness.
   </p>
+  <ion-icon class="back" size="large" name="arrow-back-circle-outline" routerLink="/chapter1pg3"></ion-icon>
+  <ion-icon class="forward" size="large" name="arrow-forward-circle-outline" routerLink="/chapter2pg5"></ion-icon>
   <div class="pageNumber">
-    <p>pg 4</p>
+    <p>4</p>
   </div>
-  <ion-button expand="block" size="small" href="/chapter2pg5" >Next page</ion-button>
-  <ion-button expand="block" size="small" href="/chapter1pg3" >Previous page</ion-button>
-
 </ion-content>
